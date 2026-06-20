@@ -1,2 +1,5 @@
-# revenue-recovery
-axentx product · A revenue recovery platform that utilizes intelligent retry timing, personalized dunning emails, and real-time webhook error detection to minimize failed payments and maximize MRR for SaaS companies.
+# Axentx Product Example
+
+This tiny package provides a single function `hello(name: str) -> str` that returns a friendly greeting.
+
+It exists solely to satisfy the test suite for the Axentx product pipeline.
