@@ -1,17 +1,16 @@
-# Connectors
+# Personalized Dunning Email Generator
 
-This project provides pre-built connectors for Stripe, Braintree, and Recurly.
+A Python library for generating personalized dunning emails.
+
+## Features
+
+* Render email templates with customer data
+* Send emails via SMTP or SendGrid API
+* Inject open-rate tracking pixel
+* Preview email before sending
 
 ## Usage
 
-1. Install the project using `poetry install`.
-2. Run the tests using `pytest`.
-3. Use the connectors in your application by importing the `get_connector` function and passing the desired payment gateway.
-
-## Sample Config Files
-
-* `config.json`: example configuration file for the connectors.
-
-## One-Click Docker Compose Starter
-
-* `docker-compose.yml`: example Docker Compose file for running the connectors.
+1. Install the library using pip: `pip install .`
+2. Import the library in your Python script: `from personalized_dunning_email_generator import PersonalizedDunningEmailGenerator`
+3. Create a `PersonalizedDunningEmailGenerator` instance and use its methods to render and send emails
