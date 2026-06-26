@@ -1,9 +1,7 @@
-# Stripe SDK
-A lightweight SDK for Stripe that automatically forwards failed payment webhooks to RevenueRecover.
+# Dunning Emails
+A Python project for sending personalized dunning emails based on customer behavior.
 
-## Quick Start
-1. Install the SDK using pip: `pip install stripe-sdk`
-2. Import the SDK in your Python code: `from src.stripe_sdk import StripeSDK`
-3. Create a `Config` object with your Stripe secret key and RevenueRecover URL: `config = Config(stripe_secret_key="your_key", revenue_recover_url="https://example.com")`
-4. Initialize the SDK: `sdk = StripeSDK(config)`
-5. Call the `InitRevenueRecover` method to register the webhook handler: `sdk.InitRevenueRecover()`
+## Usage
+1. Install the project using `poetry install`.
+2. Run the project using `poetry run python src/dunning_emails.py`.
+3. Run the tests using `poetry run pytest tests`.
